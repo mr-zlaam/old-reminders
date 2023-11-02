@@ -1,0 +1,10 @@
+.loadingdiv::after {
+          content: '';
+          background: #28282b98;
+          /* background: red; */
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          position: absolute;
+}

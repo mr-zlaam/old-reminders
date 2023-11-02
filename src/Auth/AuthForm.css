@@ -1,0 +1,62 @@
+.maines {
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+          padding: 0 20px;
+}
+
+.form {
+          height: 70vh;
+          background: #28282b;
+          min-width: 500px;
+          margin: auto;
+          border-radius: 10px;
+          overflow: hidden;
+          box-shadow:inset 5px 4px 8px #888888;
+          
+}
+.email_pass{
+          background: none;
+          border-bottom: 2px solid #ffff;
+          color: white;
+          outline: none;
+          border-radius: 0;
+          padding:8px 8px;
+          font-weight: bold;
+          font-size: 1.125rem;
+          width: 350px;
+          text-align: center;
+}
+.email_pass::placeholder{
+          color: white;
+          opacity: 0.2;
+}
+.button_and_inputs{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+          .email_pass{
+                    width: 400px;
+          }
+}
+@media screen and (max-width: 530px) {
+  .main{
+          padding: 1rem;
+
+  }
+  .form{
+          min-width: 100%;
+  }
+  
+}
+@media screen and (max-width: 398px) {
+  .email_pass{
+          font-size: 14px;
+  }
+}

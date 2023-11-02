@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+input {
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+
+}
+
+.buttons {
+          background: gray;
+          padding: 5px 15px;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+          color: white;
+          font-weight: bold;
+          transition: all 0.3s ease-in-out;
+          font-size: 1.125rem;
+}
+
+.buttons:hover {
+          background: #a3a3a3;
+
+}
+
+li {
+          margin: 10px;
+}
+
+span {
+          word-break: break-all;
+          overflow-wrap: break-word;
+}
+
+.custom_scroll::-webkit-scrollbar {
+          width: 5px;
+          overflow: overlay;
+          height: 10px;
+}
+
+.custom_scroll::-webkit-scrollbar-thumb {
+          background-color: orange;
+          border-radius: 20px;
+}
+
+.custom_scroll {
+          scrollbar-width: thin;
+          scrollbar-color: transparent transparent;
+          overflow: overlay;
+}
+
+@media screen and (max-width: 768px) {
+          .main {
+                    max-width: 95vw;
+
+          }
+
+          .title>h1 {
+                    font-size: 2.5rem;
+          }
+
+          .list_text {
+                    font-size: 1rem;
+          }
+
+          .tasklist {
+                    padding-bottom: 2rem;
+          }
+
+          input {
+                    max-width: 70%;
+          }
+
+          
+}
+
+@media screen and (max-width: 410px) {
+          input {
+                    max-width: 70%;
+
+
+          }
+
+          .list_text {
+                    padding-left: 10px;
+          }
+}
+@media screen and (max-width: 370px ) {
+          .update{
+                    
+          }
+          .form{
+                padding: 20px;
+                height: 80%;
+          }
+          .inputError{
+                font-size: 8px;
+          }
+          .didAccount{
+                font-size: 10px;
+                
+          }
+          .didAccounterror{
+                font-size: 10px;
+          }
+          input{
+                    font-style: 15px;
+                   max-width: 60%;
+                   min-width: 60%;
+          }
+  
+}
+@media screen and (max-width: 256px) {
+          * {
+                    visibility: hidden;
+
+          }
+}
+
+*::selection {
+          background: transparent;
+}
+
+* {
+          user-select: none;
+}
+
+input::selection {
+          background: gray;
+          color: #fff;
+}
+/* @media screen and (max-height: 375px) {
+  .input_title_controll{
+          height: 40vh;
+  }
+  body{
+          overflow: auto;
+  }
+} */
