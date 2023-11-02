@@ -19,7 +19,7 @@ This is a simple React application for managing a to-do list. It includes Fireba
 
 ## Installation
 
-**Please Note:** This code is intended for development purposes and is owned by [Zlaam]. It should not be used publicly or in production without proper security and permissions.
+**Please Note:** This code is intended for development purposes and is owned by `Zlaam`. It should not be used publicly or in production without proper security and permissions.
 
 ## Usage and Local Setup
 
@@ -32,4 +32,13 @@ Before you get started, ensure you have the following prerequisites:
 1. [Node.js](https://nodejs.org/): Install Node.js and npm (Node Package Manager) on your machine.
 
 2. [Git](https://git-scm.com/): Ensure you have Git installed for version control.
+
+3. Download this repo in you local machine and then open it on your Vs code
+
+4. Now open terminal and run  `npm i`. It will install all the necessary  dependencies
+
+5. Now you can use this code in order to help your self in development mode.
+
+   ####Important Note
+   If you want to use this code for development  purpose then you need the permission of owner. You can contact us on (`mrzalaam@gmail.com`)
 
