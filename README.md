@@ -40,5 +40,5 @@ Before you get started, ensure you have the following prerequisites:
 5. Now you can use this code in order to help your self in development mode.
 
    ####Important Note
-   If you want to use this code for development  purpose then you need the permission of owner. You can contact us on [Mr-Zlaam](https://www.mrzalaam@gmail.com)
+   If you want to use this code for development  purpose then you need the permission of owner. You can contact us on [mrzalaam@gmail.com](https://www.mrzalaam@gmail.com)
 
